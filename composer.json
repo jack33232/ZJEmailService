@@ -1,0 +1,23 @@
+{
+    "name": "jack33232/zjemailservice",
+    "description": "Wrap PHPMailer for easier using.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jack33232",
+            "email": "jack33232@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "phpmailer/phpmailer": "~6.0",
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZJEmailService\\": "src/"
+        }
+    }
+}
